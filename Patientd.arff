@@ -1,0 +1,21 @@
+@relation Patient_details
+@attribute patient_id string
+@attribute sex {m,f}
+@attribute patient_type {child,adult}
+@attribute sickness {allergy,acidity,migraine}
+@attribute treatment_type {allopathy,ayurveda,homeopathy}
+@attribute treated_for_years {<1,1-2,>2}
+@attribute treatment_effective {yes,no}
+@data
+
+01,m,adult,migraine,ayurveda,>2,yes
+02,f,adult,allergy,ayurveda,1-2,no
+03,m,child,acidity,homeopathy,<1,no
+03,f,child,allergy,allopathy,1-2,yes
+04,m,adult,acidity,ayurveda,<1,yes
+05,m,child,migraine,homeopathy,<1,no
+06,f,child,allergy,homeopathy,>2,no
+07,f,child,migraine,ayurveda,1-2,no
+08,m,adult,acidity,allopathy,>2,yes
+09,m,adult,allergy,allopathy,>2,yes
+10,m,child,acidity,homeopathy,1-2,yes

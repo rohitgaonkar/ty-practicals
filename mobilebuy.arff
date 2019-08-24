@@ -1,0 +1,35 @@
+@relation SmartPhoneBuyingDecision
+@attribute age {Youth,middle,senior}
+@attribute income {high,medium,low}
+@attribute student {no,yes}
+@attribute savingaccount {no,yes}
+@attribute buyssmartphone {iphone6s,SamsungS7}
+@data
+
+Youth,high,no,no,iphone6s
+Youth,high,no,yes,iphone6s
+middle,high,no,yes,SamsungS7
+senior,medium,no,no,SamsungS7
+senior,low,yes,no,SamsungS7
+senior,low,yes,yes,iphone6s
+middle,low,yes,yes,SamsungS7
+Youth,medium,no,no,iphone6s
+Youth,low,yes,no,SamsungS7
+senior,medium,yes,no,SamsungS7
+Youth,medium,yes,yes,SamsungS7
+middle,medium,no,yes,SamsungS7
+middle,high,yes,no,SamsungS7
+senior,medium,no,yes,SamsungS7
+middle,high,yes,no,SamsungS7
+senior,medium,no,yes,iphone6s
+middle,low,yes,yes,SamsungS7
+Youth,medium,no,no,iphone6s
+Youth,high,no,no,iphone6s
+senior,low,yes,no,SamsungS7
+senior,low,yes,no,iphone6s
+Youth,low,yes,no,SamsungS7
+middle,high,no,no,SamsungS7
+Youth,medium,yes,yes,SamsungS7
+senior,medium,no,yes,SamsungS7
+senior,medium,no,no,SamsungS7
+middle,medium,no,yes,SamsungS7

@@ -1,0 +1,12 @@
+patient_id,sex,patient_type,sickness,treatment_type,treated_for_years,treatment_effective
+01,m,adult,migraine,ayurveda,>2,yes
+02,f,adult,allergy,ayurveda,1-2,no
+03,m,child,acidity,homeopathy,<1,no
+03,f,child,allergy,allopathy,1-2,yes
+04,m,adult,acidity,ayurveda,<1,yes
+05,m,child,migraine,homeopathy,<1,no
+06,f,child,allergy,homeopathy,>2,no
+07,f,child,migraine,ayurveda,1-2,no
+08,m,adult,acidity,allopathy,>2,yes
+09,m,adult,allergy,allopathy,>2,yes
+10,m,child,acidity,homeopathy,1-2,yes
